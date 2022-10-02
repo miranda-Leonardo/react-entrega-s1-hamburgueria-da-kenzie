@@ -1,0 +1,128 @@
+:root {
+  --color-primary: #27ae60;
+  --color-primary-50: #93d7af;
+  --color-secundary: #eb5757;
+
+  --grey-100: #333333;
+  --grey-50: #828282;
+  --grey-20: #e0e0e0;
+  --grey-0: #f5f5f5;
+
+  --negative: #e60000;
+  --warning: #ffcd07;
+  --sucess: #168821;
+  --information: #155bcb;
+}
+
+.heading1 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.heading2 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.heading3 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.heading4 {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.headline {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.body {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.body-600 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.caption {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.buttonDefault1 {
+  color: #ffffff;
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.buttonDefault1:hover {
+  background-color: var(--color-primary-50);
+  border: 2px solid var(--color-primary-50);
+}
+
+.buttonDefault2 {
+  color: var(--grey-50);
+  background-color: var(--grey-20);
+  border: 2px solid var(--grey-20);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.buttonDefault2:hover {
+  color: var(--grey-20);
+  background-color: var(--grey-50);
+  border: 2px solid var(--grey-50);
+}
+
+.buttonMedium1 {
+  color: #ffffff;
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.buttonMedium1:hover {
+  background-color: var(--color-primary-50);
+  border: 2px solid var(--color-primary-50);
+}
+
+.buttonMedium2 {
+  color: var(--grey-50);
+  background-color: var(--grey-20);
+  border: 2px solid var(--grey-20);
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.buttonMedium2:hover {
+  color: var(--grey-20);
+  background-color: var(--grey-50);
+  border: 2px solid var(--grey-50);
+}
+
+.search {
+  background-color: #ffffff;
+  border: 2px solid var(--grey-20);
+  border-radius: 4px;
+}
+
+.search:focus {
+  border: 2px solid var(--grey-100);
+  border-radius: 4px;
+}
+
+.padding {
+  padding: 5px;
+}
+
+.pesquisa {
+  color: var(--grey-50);
+}
